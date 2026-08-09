@@ -1,0 +1,374 @@
+// MTL Hockey palette — navy/ice, drawn from the 2026-27 flyer
+$mtl-navy: #0A2D5E;
+$mtl-blue: #2d6bb4;
+$mtl-light: #e8f0f8;
+$mtl-white: #ffffff;
+$mtl-text: #2d2d2d;
+$mtl-gray: #6b7280;
+$mtl-border: #d1d5db;
+
+// Typography — system font stack
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-stack;
+  color: $mtl-text;
+  line-height: 1.6;
+  background: $mtl-white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.3;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.15rem; }
+
+a {
+  color: $mtl-blue;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid $mtl-border;
+}
+
+th {
+  font-weight: 600;
+  background: $mtl-light;
+}
+
+// Site header
+.site-header {
+  background: $mtl-navy;
+  color: $mtl-white;
+  padding: 0.75rem 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.site-title {
+  color: $mtl-white;
+  font-size: 1.25rem;
+  text-decoration: none;
+  &:hover { text-decoration: none; opacity: 0.9; }
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.social-link {
+  color: rgba($mtl-white, 0.7);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  &:hover { color: $mtl-white; text-decoration: none; }
+}
+
+// Main content
+main.container {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+// Page content
+.page-content {
+  h2 {
+    border-bottom: 2px solid $mtl-light;
+    padding-bottom: 0.25rem;
+  }
+}
+
+// Quick reference card
+.quick-ref {
+  background: $mtl-light;
+  border-left: 4px solid $mtl-navy;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: $mtl-navy;
+  }
+}
+
+.quick-ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+
+  th {
+    text-align: left;
+    padding: 0.25rem 1rem 0.25rem 0;
+    color: $mtl-gray;
+    font-weight: 600;
+    white-space: nowrap;
+    width: 1%;
+    background: none;
+    border-bottom: none;
+  }
+
+  td {
+    padding: 0.25rem 0;
+    border-bottom: none;
+  }
+}
+
+// Age badge
+.rules-header {
+  margin-bottom: 1rem;
+}
+
+.age-badge {
+  display: inline-block;
+  background: $mtl-navy;
+  color: $mtl-white;
+  padding: 0.2rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+// Print button — hidden on mobile
+.print-only-hide {
+  display: none;
+
+  @media (min-width: 641px) {
+    display: block;
+  }
+}
+
+.print-btn {
+  background: $mtl-blue;
+  color: $mtl-white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  &:hover { background: $mtl-navy; }
+}
+
+// Rules footer
+.rules-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid $mtl-border;
+  font-size: 0.9rem;
+  color: $mtl-gray;
+}
+
+// Stub page notice
+.stub-notice {
+  background: $mtl-light;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+// Picker cards (soccer overview)
+.picker-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 480px) {
+  .picker-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.picker-card {
+  display: block;
+  background: $mtl-light;
+  border: 2px solid $mtl-border;
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: $mtl-text;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: $mtl-navy;
+    text-decoration: none;
+  }
+
+  small {
+    display: block;
+    font-weight: 400;
+    color: $mtl-gray;
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+  }
+}
+
+// Sport cards (home page)
+.sport-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.sport-card {
+  display: block;
+  background: $mtl-navy;
+  color: $mtl-white;
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: background 0.15s;
+
+  &:hover {
+    background: $mtl-blue;
+    text-decoration: none;
+  }
+}
+
+// Footer
+.site-footer {
+  background: $mtl-navy;
+  color: rgba($mtl-white, 0.8);
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  text-align: center;
+
+  a {
+    color: $mtl-white;
+    &:hover { opacity: 0.8; }
+  }
+
+  p { margin-bottom: 0.25rem; }
+}
+
+// Field diagrams
+.field-diagram {
+  background: #4a8c3f;
+  border: 2px solid #3a6f32;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+  position: relative;
+  max-width: 300px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $mtl-white;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.field-diagram .goal-top,
+.field-diagram .goal-bottom {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba($mtl-white, 0.3);
+  padding: 0.15rem 1rem;
+  border-radius: 2px;
+  font-size: 0.75rem;
+}
+
+.field-diagram .goal-top { top: 0; }
+.field-diagram .goal-bottom { bottom: 0; }
+
+.field-diagram .positions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem 0.5rem;
+}
+
+.field-diagram .pos {
+  background: rgba($mtl-white, 0.25);
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  margin: 0 auto;
+}
+
+.field-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
