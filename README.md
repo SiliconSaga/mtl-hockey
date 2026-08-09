@@ -21,7 +21,7 @@ The website for **Mountain Top League hockey** (West Orange, NJ). It's a plain, 
 | The colors and look | `_sass/_base.scss` |
 | Site title / description | `_config.yml` |
 | Photos and images | `assets/images/` |
-| **Flyers** (print/social) | `flyers/hockey-2026/` — edit the HTML, then run `bash flyers/hockey-2026/export.sh` to regenerate the PDFs/PNGs in `exports/` |
+| **Flyers** (print/social) | `flyers/hockey-2026/` *(arriving with the flyer-kit migration PR)* — edit the HTML, then run `bash flyers/hockey-2026/export.sh` to regenerate the PDFs/PNGs in `exports/` |
 
 ## Previewing and publishing
 

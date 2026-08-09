@@ -10,8 +10,9 @@
 - title: Rinks
   url: /rinks/
 
-- title: Flyers
-  url: /flyers-page/
+# Flyers entry returns when the flyer kit migrates in (flyers-page.md + flyers/):
+# - title: Flyers
+#   url: /flyers-page/
 
 - title: FAQ
   url: /faq/
