@@ -3,7 +3,7 @@ layout: page
 title: MTL Hockey
 ---
 
-MTL Hockey is part of the [Mountain Top League](https://mountaintopleague.com/), an all-volunteer organization serving the children of West Orange, NJ since 1959. We offer ice hockey and street hockey programs — no travel required, all fun.
+MTL Hockey is part of the [Mountain Top League](https://mountaintopleague.com/), an all-volunteer organization serving the children of West Orange, NJ since 1959. We offer ice hockey and street hockey programs — no travel, all fun.
 
 ## 2026–27 Programs
 
