@@ -21,7 +21,7 @@ The website for **Mountain Top League hockey** (West Orange, NJ). It's a plain, 
 | The colors and look | `_sass/_base.scss` |
 | Site title / description | `_config.yml` |
 | Photos and images | `assets/images/` |
-| **Flyers** (print/social) | `flyers/hockey-2026/` — edit the HTML and open a PR; the PDFs/PNGs in `exports/` regenerate automatically (locally: `bash <volundr>/flyer-kit/export.sh flyers/hockey-2026`, see [volundr's flyer-kit](https://github.com/SiliconSaga/volundr/tree/main/flyer-kit)) |
+| **Flyers** (print/social) | `flyers/hockey-2026/` — edit the HTML and open a PR; the PDFs/PNGs in `exports/` regenerate automatically (locally, with volundr cloned alongside this repo: `bash ../volundr/flyer-kit/export.sh flyers/hockey-2026`, see [volundr's flyer-kit](https://github.com/SiliconSaga/volundr/tree/main/flyer-kit)) |
 
 ## Previewing and publishing
 

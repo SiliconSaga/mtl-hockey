@@ -4,6 +4,9 @@ on:
   pull_request:
     paths: ['flyers/**']
 
+# contents: write exists solely so the reusable workflow can commit
+# regenerated flyer exports back to this PR's branch — it performs no other
+# repository writes.
 permissions:
   contents: write
 
