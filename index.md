@@ -3,7 +3,7 @@ layout: page
 title: MTL Hockey
 ---
 
-MTL Hockey is part of the [Mountain Top League](https://mountaintopleague.com/), an all-volunteer organization serving the children of West Orange, NJ since 1959. We offer ice hockey and street hockey programs — no travel, all fun.
+MTL Hockey is part of the [Mountain Top League](https://mountaintopleague.com/), an all-volunteer organization serving the children of West Orange, NJ since 1959. We offer ice hockey and street hockey programs — hometown rec hockey, all fun.
 
 ## 2026–27 Programs
 
@@ -22,7 +22,7 @@ Read [How MTL Hockey Works]({{ site.baseurl }}/how-it-works/) for an overview of
 
 ## Where We Play
 
-Street hockey at O'Connor Park, full ice at Codey Arena, league games at Mennen Arena — maps and details on the [Rinks]({{ site.baseurl }}/rinks/) page.
+Street hockey at O'Connor Park, full ice at Codey Arena, league games at Mennen Arena in nearby Morristown — we're a rec league, not a travel league, though not every rink is in West Orange. Maps and details on the [Rinks]({{ site.baseurl }}/rinks/) page.
 
 ## Get Involved
 
