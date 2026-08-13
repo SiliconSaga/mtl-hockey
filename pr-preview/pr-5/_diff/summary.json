@@ -1,0 +1,20 @@
+{
+  "changed": [
+    "/faq/",
+    "/rinks/"
+  ],
+  "added": [
+    "/rinks/mtl-house/"
+  ],
+  "removed": [],
+  "groups": [
+    {
+      "exemplar": "/faq/",
+      "identical": []
+    },
+    {
+      "exemplar": "/rinks/",
+      "identical": []
+    }
+  ]
+}
