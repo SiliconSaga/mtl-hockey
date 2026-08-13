@@ -1,0 +1,18 @@
+{
+  "changed": [
+    "/",
+    "/register/"
+  ],
+  "added": [],
+  "removed": [],
+  "groups": [
+    {
+      "exemplar": "/",
+      "identical": []
+    },
+    {
+      "exemplar": "/register/",
+      "identical": []
+    }
+  ]
+}
