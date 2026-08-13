@@ -13,7 +13,7 @@ Mites is $600 (monthly payment options available), Squirts In-House Skills is $1
 
 ## Where are games and practices?
 
-Street hockey at [O'Connor Park]({{ site.baseurl }}/rinks/oconnor/), full ice at [Codey Arena]({{ site.baseurl }}/rinks/codey/), league games at [Mennen Arena]({{ site.baseurl }}/rinks/mennen/).
+Street hockey at [O'Connor Park]({{ site.baseurl }}/rinks/oconnor/), full ice at [Codey Arena]({{ site.baseurl }}/rinks/codey/), league games at [Mennen Arena]({{ site.baseurl }}/rinks/mennen/), and Squirts In-House Skills at the [MTL League House]({{ site.baseurl }}/rinks/mtl-house/).
 
 ## Does my child need to know how to skate?
 
