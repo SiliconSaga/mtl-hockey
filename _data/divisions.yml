@@ -2,12 +2,12 @@
 # treatment until finalized — update here and the Home + Register pages follow.
 - name: Mites
   ages: "Birth years 2018 & younger (8U)"
-  fee: ""
-  fee_tbd: true
+  fee: "$600"
+  fee_tbd: false
   details:
     - "20 MCYHL league games at Mennen Arena, plus MTL practices"
     - "Monthly payment options available"
-  register_url: ""
+  register_url: "https://registration.teamsnap.com/form/73012"
 
 - name: Squirts
   ages: "Birth years 2016–2017 (10U)"

@@ -9,7 +9,7 @@ Divisions go by birth year — see [How It Works]({{ site.baseurl }}/how-it-work
 
 ## How much does it cost?
 
-Squirts In-House Skills is $100 and Middle School is $400. Mites pricing for 2026–27 is being finalized (monthly payment options will be available). Current numbers are always on the [Register]({{ site.baseurl }}/register/) page.
+Mites is $600 (monthly payment options available), Squirts In-House Skills is $100, and Middle School is $400. Current numbers and sign-up links are always on the [Register]({{ site.baseurl }}/register/) page.
 
 ## Where are games and practices?
 
