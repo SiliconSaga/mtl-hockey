@@ -61,3 +61,21 @@ body { font-family: Oswald, "Arial Narrow", sans-serif; }
 .flyer--ig .fee { font-size: 28px; }
 .flyer--ig .tbd-badge { font-size: 19px; }
 .flyer--ig .footer-strip { font-size: 26px; padding: 18px 24px 22px; }
+
+/* Snapshot print overlapping the photo band — fills the dead margin beside
+   the main photo without ever covering the QR box (left placement only). */
+.snapshot {
+  position: absolute;
+  left: 26px;
+  bottom: -4px;
+  width: 190px;
+  transform: rotate(-5deg);
+  border: 7px solid var(--white);
+  border-bottom-width: 26px; /* polaroid chin */
+  border-radius: 3px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.5);
+}
+.flyer--ig .snapshot { width: 250px; left: 34px; }
+
+/* The locker-room photo's subjects sit in the lower half of the frame. */
+.team--lockerroom { object-position: center 68%; }

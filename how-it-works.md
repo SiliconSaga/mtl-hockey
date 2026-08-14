@@ -12,6 +12,8 @@ MTL Hockey runs three divisions in the 2026–27 season. Placement is by birth y
 
 ## The Season
 
+<img class="site-photo" src="{{ site.baseurl }}/assets/images/team-lockerroom.jpg" alt="MTL middle school hockey team together in the locker room">
+
 - Mites play a 20-game MCYHL league schedule at Mennen Arena, with MTL practices in between.
 - Squirts run In-House Skills coaching at MTL House, with a Mennen league team formed if there is enough interest.
 - Middle School plays a 10-game Montclair State Middle School League schedule; the season begins in early winter.
