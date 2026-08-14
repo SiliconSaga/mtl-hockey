@@ -32,4 +32,4 @@ The website for **Mountain Top League hockey** (West Orange, NJ). It's a plain, 
 
 ## The bigger picture
 
-This is one of the Mountain Top League's per-sport sub-sites (soccer lives in [mtl-site](https://github.com/SiliconSaga/mtl-site)); the [Mountain Top League site](https://mountaintopleague.com/) remains the league-wide primer. Architecture notes live in `_docs/plans/`. CI (deploy + PR preview + visual diff) is shared via [volundr](https://github.com/SiliconSaga/volundr).
+This is one of the Mountain Top League's per-sport sub-sites (soccer lives in [mtl-soccer](https://github.com/SiliconSaga/mtl-soccer), live at [soccer.mountaintopleague.com](https://soccer.mountaintopleague.com/)); the [Mountain Top League site](https://mountaintopleague.com/) remains the league-wide primer. Architecture notes live in `_docs/plans/`. CI (deploy + PR preview + visual diff) is shared via [volundr](https://github.com/SiliconSaga/volundr).
