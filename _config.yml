@@ -2,10 +2,11 @@ title: MTL Hockey
 description: >-
   MTL Hockey is part of the Mountain Top League, an all-volunteer organization
   serving the children of West Orange, NJ since 1959.
-url: "https://siliconsaga.github.io"
-baseurl: "/mtl-hockey"
-# Subdomain era: set url to https://hockey.mountaintopleague.com, baseurl to "",
-# and add a CNAME file containing hockey.mountaintopleague.com — one commit.
+# Served at the hockey subdomain; the CNAME file at the repo root rides the
+# deploy to gh-pages, where GitHub Pages picks the domain up. Old
+# siliconsaga.github.io/mtl-hockey/ URLs redirect here automatically.
+url: "https://hockey.mountaintopleague.com"
+baseurl: ""
 
 permalink: pretty
 markdown: kramdown
