@@ -5,7 +5,7 @@ title: FAQ
 
 ## Which division is my child in?
 
-Divisions go by birth year — see [How It Works]({{ site.baseurl }}/how-it-works/). If your child's year sits on a boundary or they want to play up or down, email us.
+Divisions go by birth year — see [How It Works]({{ site.baseurl }}/how-it-works/). Mites has a minimum age of 5 (birth years 2018–2021). If your child's year sits on a boundary or they want to play up or down, email us.
 
 ## How much does it cost?
 

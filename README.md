@@ -26,7 +26,8 @@ The website for **Mountain Top League hockey** (West Orange, NJ). It's a plain, 
 ## Previewing and publishing
 
 - **Every PR gets a live preview**: a comment appears on the PR with a link to a full preview of the changed site, plus a visual diff against the current site. Review those, then merge — the live site updates within a couple of minutes.
-- **Local preview** (optional): `bundle install` once, then `bundle exec jekyll serve` and open <http://localhost:4000/mtl-hockey/>.
+- **Local preview** (optional): `bundle install` once, then `bundle exec jekyll serve` and open <http://localhost:4000/>.
+- **Live site**: <https://hockey.mountaintopleague.com/> (old `siliconsaga.github.io/mtl-hockey/` links redirect there).
 - Publishing is merge-gated: nothing reaches the live site without a human merging a PR.
 
 ## The bigger picture
