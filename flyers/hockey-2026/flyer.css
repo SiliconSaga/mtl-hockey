@@ -77,5 +77,7 @@ body { font-family: Oswald, "Arial Narrow", sans-serif; }
 }
 .flyer--ig .snapshot { width: 250px; left: 34px; }
 
-/* The locker-room photo's subjects sit in the lower half of the frame. */
-.team--lockerroom { object-position: center 68%; }
+/* The locker-room photo is pre-cropped close to the band's aspect; center
+   whatever sliver object-fit still trims. Selector must out-rank
+   .photo-band img.team or its object-position: top wins. */
+.photo-band img.team--lockerroom { object-position: center; }
