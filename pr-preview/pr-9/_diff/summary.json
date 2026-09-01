@@ -1,0 +1,58 @@
+{
+  "changed": [
+    "/",
+    "/contact/",
+    "/faq/",
+    "/flyers-page/",
+    "/how-it-works/",
+    "/register/",
+    "/rinks/",
+    "/rinks/codey/",
+    "/rinks/mennen/",
+    "/rinks/oconnor/"
+  ],
+  "added": [],
+  "removed": [],
+  "groups": [
+    {
+      "exemplar": "/",
+      "identical": []
+    },
+    {
+      "exemplar": "/contact/",
+      "identical": []
+    },
+    {
+      "exemplar": "/faq/",
+      "identical": []
+    },
+    {
+      "exemplar": "/flyers-page/",
+      "identical": []
+    },
+    {
+      "exemplar": "/how-it-works/",
+      "identical": []
+    },
+    {
+      "exemplar": "/register/",
+      "identical": []
+    },
+    {
+      "exemplar": "/rinks/",
+      "identical": []
+    },
+    {
+      "exemplar": "/rinks/codey/",
+      "identical": []
+    },
+    {
+      "exemplar": "/rinks/mennen/",
+      "identical": []
+    },
+    {
+      "exemplar": "/rinks/oconnor/",
+      "identical": []
+    }
+  ]
+}
