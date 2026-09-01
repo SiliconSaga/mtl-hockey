@@ -3,7 +3,7 @@ layout: page
 title: Rinks
 ---
 
-MTL Hockey plays at three locations. Tap a rink for maps, parking, and what happens there.
+MTL Hockey plays and trains at four locations. Tap one for maps, parking, and what happens there.
 
 <div class="picker-grid">
   <a href="{{ site.baseurl }}/rinks/oconnor/" class="picker-card">
@@ -17,5 +17,9 @@ MTL Hockey plays at three locations. Tap a rink for maps, parking, and what happ
   <a href="{{ site.baseurl }}/rinks/mennen/" class="picker-card">
     Mennen Arena
     <small>League games &middot; Morristown</small>
+  </a>
+  <a href="{{ site.baseurl }}/rinks/mtl-house/" class="picker-card">
+    MTL League House
+    <small>In-House Skills &middot; West Orange</small>
   </a>
 </div>
