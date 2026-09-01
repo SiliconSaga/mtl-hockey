@@ -9,7 +9,7 @@ Season flyers, ready to print, email, or post.
 
 - [Combined flyer — PDF]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-2026.pdf) &middot; [PNG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-2026.png)
 - [Middle School flyer — PDF]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-2026-middle-school.pdf) &middot; [PNG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-2026-middle-school.png)
-- [Instagram version — PNG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-2026-instagram.png)
+- [Instagram version — JPEG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-2026-instagram.jpg)
 
 Live previews: [combined]({{ site.baseurl }}/flyers/hockey-2026/) &middot; [middle school]({{ site.baseurl }}/flyers/hockey-2026/middle-school.html) &middot; [instagram]({{ site.baseurl }}/flyers/hockey-2026/instagram.html)
 
