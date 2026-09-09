@@ -1,0 +1,23 @@
+{
+  "changed": [
+    "/",
+    "/faq/",
+    "/how-it-works/"
+  ],
+  "added": [],
+  "removed": [],
+  "groups": [
+    {
+      "exemplar": "/",
+      "identical": []
+    },
+    {
+      "exemplar": "/faq/",
+      "identical": []
+    },
+    {
+      "exemplar": "/how-it-works/",
+      "identical": []
+    }
+  ]
+}
