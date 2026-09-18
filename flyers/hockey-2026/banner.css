@@ -58,14 +58,16 @@ body { font-family: Oswald, "Arial Narrow", sans-serif; }
     radial-gradient(ellipse 45% 80% at 18% 50%, rgba(169,211,242,0.35) 0%, rgba(169,211,242,0) 70%),
     radial-gradient(ellipse 120% 70% at 50% -10%, #1a4a8f 0%, var(--navy) 45%, var(--navy-deep) 100%);
 }
-.banner--fierce .mascot-col { width: 740px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
-.banner--fierce .mascot { width: 760px; }
-.banner--fierce .text-col { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0 20px 0 10px; }
-.banner--fierce .kicker { font-size: 48px; color: var(--ice-light); }
-.banner--fierce .headline { font-size: 232px; color: var(--white); margin: 4px 0 10px; }
-.banner--fierce .tagline { font-size: 42px; color: var(--white); margin-bottom: 22px; }
+/* Left third is the WO game-day post itself (mute icon inpainted out), shown
+   whole: the crop is 887x865, a hair off the banner's 864 height. */
+.banner--fierce .poster-col { width: 887px; flex-shrink: 0; overflow: hidden; }
+.banner--fierce .poster-col img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+.banner--fierce .text-col { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0 20px 0 44px; }
+.banner--fierce .kicker { font-size: 40px; color: var(--ice-light); }
+.banner--fierce .headline { font-size: 168px; color: var(--white); margin: 4px 0 10px; }
+.banner--fierce .tagline { font-size: 40px; color: var(--white); margin-bottom: 22px; }
 .banner--fierce .pill { color: var(--gold); font-size: 30px; }
-.banner--fierce .qr-col { width: 620px; }
+.banner--fierce .qr-col { width: 600px; }
 .banner--fierce .url { color: var(--ice-light); }
 
 /* --- Variant: classic ----------------------------------------------------- */
