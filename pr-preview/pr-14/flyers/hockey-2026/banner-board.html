@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MTL Hockey — Rink Banner (board)</title>
+<link rel="stylesheet" href="banner.css">
+<style>
+  /* This variant is wider than the 8x3 assumption: the community artwork is
+     2.95:1 on its own, and the QR panel is spliced onto its right. 3419x864
+     at quarter scale = 35.6in x 9in, so roughly 11.9ft x 3ft at full size. */
+  @page { size: 35.6in 9in; margin: 0; }
+</style>
+</head>
+<body>
+<div class="banner banner--board">
+  <img class="board-art" src="../assets/board-mtl-extended.jpg" alt="Mountain Top League dasher-board artwork with the WO Mountaineer mascot">
+  <div class="board-panel">
+    <div class="board-kicker">MTL Hockey</div>
+    <div class="qr-box">
+      <img src="../assets/qr-hockey-rink.png" alt="QR code: hockey.mountaintopleague.com">
+      <div class="scan">Scan to join</div>
+    </div>
+    <div class="url">hockey.mountaintopleague.com</div>
+  </div>
+</div>
+</body>
+</html>
