@@ -29,7 +29,7 @@ Street hockey at O'Connor Park, full ice at Codey Arena, league games at Mennen 
 
 ## Get Involved
 
-MTL is run entirely by volunteers. To coach, manage a team, or help out, email [mountaintop.hockey@gmail.com](mailto:mountaintop.hockey@gmail.com).
+MTL is run entirely by volunteers. To coach, manage a team, or help out, email [mountaintop.hockey@gmail.com](mailto:mountaintop.hockey@gmail.com). The cross-sport [MTL Volunteering guide](https://volunteering.mountaintopleague.com/) covers the League House, gear, sportsmanship, and safety.
 
 ## Other MTL Sports
 

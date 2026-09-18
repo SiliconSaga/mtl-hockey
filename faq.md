@@ -19,6 +19,10 @@ Street hockey at [O'Connor Park]({{ site.baseurl }}/rinks/oconnor/), full ice at
 
 *Answer coming from the coordinators — email [mountaintop.hockey@gmail.com](mailto:mountaintop.hockey@gmail.com) in the meantime.*
 
+## I disagree with a call or a coaching decision. What should I do?
+
+Give it 24 hours. MTL asks parents to wait a day before raising a concern about a coaching decision with the coach or team manager, away from the kids, and asks that nobody approach a referee about a call. If you believe a game was officiated in a way the league should hear about, email [mountaintop.hockey@gmail.com](mailto:mountaintop.hockey@gmail.com) or use the [league contact form](https://mountaintopleague.com/contact-us/). The full [24-hour rule](https://volunteering.mountaintopleague.com/sportsmanship/) is on the MTL Volunteering site.
+
 ## Can I help?
 
-Yes — MTL is all volunteers. Coaching, team managing, scorekeeping: email [mountaintop.hockey@gmail.com](mailto:mountaintop.hockey@gmail.com).
+Yes — MTL is all volunteers. Coaching, team managing, scorekeeping: email [mountaintop.hockey@gmail.com](mailto:mountaintop.hockey@gmail.com). The cross-sport [MTL Volunteering guide](https://volunteering.mountaintopleague.com/) covers what to expect.
