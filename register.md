@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Register
+# Fees, ages, and sign-up links render from the divisions data file, so the
+# "Suggest an edit" button points there rather than at this page's wording.
+edit_path: _data/divisions.yml
 ---
 
 All MTL Hockey sign-ups in one place. Registration is rolling — signing up early helps us gauge interest and secure ice time, so don't wait for a deadline.
