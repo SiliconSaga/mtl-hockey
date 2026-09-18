@@ -6,7 +6,7 @@ The website for **Mountain Top League hockey** (West Orange, NJ). It's a plain, 
 > *"Update the Mites fee to $250."* · *"Add the TeamSnap registration links."* · *"Swap the Middle School team photo."*
 > Then look over the PR it opens — every PR automatically gets a **preview site link and a visual diff** so you can see exactly what changes before it goes live.
 
-No agent handy? Every page on the live site has a **Suggest an edit** button (desktop only) that opens that page's file in GitHub's editor — the change comes back as a PR for the league to review, same as above.
+No agent handy? Every page on the live site has a **Suggest an edit** button (on tablet-width screens and up) that opens that page's file in GitHub's editor — the change comes back as a PR for the league to review, same as above.
 
 ## How the site is laid out
 
