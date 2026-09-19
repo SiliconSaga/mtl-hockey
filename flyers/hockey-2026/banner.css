@@ -1,0 +1,124 @@
+/* MTL hockey rink banner — 8 ft x 3 ft dasher-board banner, authored at
+   quarter scale: 2304x864 CSS px = 24in x 9in, so the print PDF is a true
+   quarter-scale vector master a banner printer scales up cleanly. The PNG
+   export (scale 2 = 4608x1728) is for on-screen review.
+
+   Shares the flyer kit's fonts and palette; adds the WO ice blues so the
+   mascot sits naturally. Three variants share this sheet — see banner-*.html. */
+@font-face { font-family: "Saira Stencil One"; src: url("../assets/fonts/SairaStencilOne-Regular.ttf"); }
+@font-face { font-family: Oswald; src: url("../assets/fonts/Oswald[wght].ttf"); font-weight: 200 700; }
+
+:root {
+  --navy: #0A2D5E; --navy-deep: #071F42; --gold: #FFD200;
+  --ice: #6FB3E0; --ice-light: #A9D3F2; --red: #E8352E;
+  --cream: #F6F3EE; --white: #FFFFFF;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: #444; }
+body { font-family: Oswald, "Arial Narrow", sans-serif; }
+
+.banner {
+  width: 2304px; height: 864px; margin: 0 auto; overflow: hidden; position: relative;
+  display: flex; align-items: stretch;
+  color: var(--white);
+}
+
+/* --- shared pieces ------------------------------------------------------ */
+
+/* The mascot crop is a rectangle out of a busy splash background; a radial
+   mask feathers its edges into whatever sits behind it. */
+.mascot { display: block; object-fit: contain; }
+.mascot--blend {
+  -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 45%, transparent 88%);
+  mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 45%, transparent 88%);
+}
+
+/* Text column must be allowed to shrink below its content's natural width,
+   or a wide headline pushes the QR column clean off the banner. */
+.text-col { min-width: 0; }
+
+/* QR column: the whole point of the banner. Sized so it scans from the
+   stands — at print scale the code is ~24in across. Never shrinks. */
+.qr-col { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; flex-shrink: 0; }
+.qr-box { background: var(--white); border-radius: 22px; padding: 22px 22px 14px; text-align: center; color: var(--navy-deep); }
+.qr-box img { width: 500px; height: 500px; display: block; }
+.qr-box .scan { font-weight: 700; font-size: 44px; letter-spacing: 3px; text-transform: uppercase; margin-top: 6px; }
+.url { font-weight: 500; font-size: 40px; letter-spacing: 1px; }
+
+.headline { font-family: "Saira Stencil One", Oswald, sans-serif; line-height: 0.9; letter-spacing: 6px; }
+.kicker { font-weight: 700; text-transform: uppercase; letter-spacing: 4px; }
+.tagline { font-weight: 300; letter-spacing: 2px; }
+.pill-row { display: flex; gap: 18px; flex-wrap: wrap; }
+.pill { border: 3px solid currentColor; border-radius: 999px; padding: 6px 26px; font-weight: 500; font-size: 34px; letter-spacing: 2px; text-transform: uppercase; }
+
+/* --- Variant: fierce ------------------------------------------------------ */
+.banner--fierce {
+  background:
+    radial-gradient(ellipse 45% 80% at 18% 50%, rgba(169,211,242,0.35) 0%, rgba(169,211,242,0) 70%),
+    radial-gradient(ellipse 120% 70% at 50% -10%, #1a4a8f 0%, var(--navy) 45%, var(--navy-deep) 100%);
+}
+/* Left third is the WO game-day post itself (mute icon inpainted out), shown
+   whole: the crop is 887x865, a hair off the banner's 864 height. */
+.banner--fierce .poster-col { width: 887px; flex-shrink: 0; overflow: hidden; }
+.banner--fierce .poster-col img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+.banner--fierce .text-col { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0 20px 0 44px; }
+.banner--fierce .kicker { font-size: 40px; color: var(--ice-light); }
+.banner--fierce .headline { font-size: 168px; color: var(--white); margin: 4px 0 10px; }
+.banner--fierce .tagline { font-size: 40px; color: var(--white); margin-bottom: 22px; }
+.banner--fierce .pill { color: var(--gold); font-size: 30px; }
+.banner--fierce .qr-col { width: 600px; }
+.banner--fierce .url { color: var(--ice-light); }
+
+/* --- Variant: classic ----------------------------------------------------- */
+.banner--classic { background: var(--cream); color: var(--navy); }
+.banner--classic .stripe { position: absolute; left: 0; right: 0; height: 22px; background: var(--red); }
+.banner--classic .stripe--top { top: 0; }
+.banner--classic .stripe--bottom { bottom: 0; }
+.banner--classic .crest-col { width: 470px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.banner--classic .crest-col img { width: 400px; }
+.banner--classic .text-col { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0 10px; }
+.banner--classic .kicker { font-size: 46px; color: var(--red); }
+.banner--classic .headline { font-size: 200px; color: var(--navy); margin: 6px 0 12px; }
+.banner--classic .tagline { font-size: 38px; color: var(--navy); margin-bottom: 18px; }
+.banner--classic .pill { color: var(--navy); font-size: 30px; }
+.banner--classic .mascot-col { width: 430px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.banner--classic .mascot-col .mascot { width: 430px; }
+.banner--classic .qr-col { width: 590px; }
+.banner--classic .qr-box { box-shadow: 0 10px 30px rgba(10,45,94,0.25); }
+.banner--classic .url { color: var(--navy); }
+
+/* --- Variant: split ------------------------------------------------------- */
+.banner--split { background: var(--navy-deep); }
+.banner--split .mascot-col {
+  width: 860px; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  background: radial-gradient(ellipse 70% 70% at 50% 45%, #2a6fb5 0%, #123f7a 55%, var(--navy-deep) 100%);
+}
+.banner--split .mascot-col .mascot { width: 720px; }
+.banner--split .road { font-weight: 700; font-size: 40px; letter-spacing: 4px; text-transform: uppercase; color: var(--ice-light); text-align: center; }
+.banner--split .text-col { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0 24px 0 40px; }
+.banner--split .kicker { font-size: 50px; color: var(--gold); }
+.banner--split .headline { font-size: 200px; color: var(--white); margin: 6px 0 14px; }
+.banner--split .tagline { font-size: 42px; color: var(--ice-light); margin-bottom: 22px; }
+.banner--split .pill { color: var(--white); }
+.banner--split .qr-col { width: 620px; }
+.banner--split .url { color: var(--ice-light); }
+
+/* --- Variant: board (community artwork + spliced QR panel) ---------------- */
+.banner--board { width: 3419px; background: #dbe9f5; display: block; }
+.banner--board .board-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+/* The panel sits over the tiled ice: artwork x 1920-2470 of 2580 native
+   (before the closing slash), which scales to 2544-3273 of 3419 here. */
+.banner--board .board-panel {
+  position: absolute; top: 0; bottom: 0; left: 2544px; width: 729px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+  color: var(--navy-deep);
+}
+.banner--board .board-kicker { font-family: "Saira Stencil One", Oswald, sans-serif; font-size: 78px; letter-spacing: 4px; color: var(--navy-deep); }
+.banner--board .qr-box { padding: 18px 18px 10px; box-shadow: 0 10px 30px rgba(10,45,94,0.30); border: 4px solid var(--navy); }
+.banner--board .qr-box img { width: 520px; height: 520px; }
+.banner--board .qr-box .scan { font-size: 40px; }
+.banner--board .url { color: var(--navy-deep); font-size: 36px; font-weight: 600; }
+
+@media print { html, body { background: none; } .banner { margin: 0; } }
+@page { size: 24in 9in; margin: 0; }
