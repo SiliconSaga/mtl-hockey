@@ -19,6 +19,14 @@ MTL Hockey is part of the [Mountain Top League](https://mountaintopleague.com/),
 {% endfor %}
 </div>
 
+{% if site.posts.size > 0 %}
+## Latest News
+
+{% include post-list.html limit=2 %}
+
+[All news, and how to follow it →]({{ site.baseurl }}/news/)
+{% endif %}
+
 ## New to MTL Hockey?
 
 Read [How MTL Hockey Works]({{ site.baseurl }}/how-it-works/) for an overview of divisions, schedules, and what to expect, or jump straight to [registration]({{ site.baseurl }}/register/).
