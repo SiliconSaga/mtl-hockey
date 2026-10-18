@@ -13,6 +13,7 @@ No agent handy? Every content page on the live site has a **Suggest an edit** bu
 | You want to change… | Edit this file |
 |---|---|
 | Home page | `index.md` |
+| **News posts** (announcements, social posts) | `_posts/` — one file per post, images in `assets/news/<post>/`; see [News posts](#news-posts) |
 | Divisions, ages, fees, sign-up links | `_data/divisions.yml` (Home + Register update automatically) |
 | Register page wording | `register.md` |
 | Rink pages (maps, parking) | `rinks/*.md` |
@@ -20,11 +21,25 @@ No agent handy? Every content page on the live site has a **Suggest an edit** bu
 | FAQ questions & answers | `faq.md` |
 | Contact info | `contact.md` |
 | Menu | `_data/nav.yml` |
+| The "Follow" box on News and posts | `_includes/follow.html` |
 | The Print / Suggest an edit buttons | `_includes/page-tools.html` (edit-link base in `_config.yml`) |
 | The colors and look | `_sass/_base.scss` |
 | Site title / description | `_config.yml` |
 | Photos and images | `assets/images/` |
 | **Flyers** (print/social) | `flyers/hockey-2026/` — edit the HTML and open a PR; the PDFs/PNGs in `exports/` regenerate automatically (locally, with volundr cloned alongside this repo: `bash ../volundr/flyer-kit/export.sh flyers/hockey-2026`, see [volundr's flyer-kit](https://github.com/SiliconSaga/volundr/tree/main/flyer-kit)) |
+
+## News posts
+
+When a post goes out on Facebook or Instagram, keep it here too: *"Save today's post to the site news."* Each post is one file in `_posts/` named `YYYY-MM-DD-short-title.md`, with the post text as the body (links written as links, no hashtags) and this front matter:
+
+| Field | Holds |
+|---|---|
+| `title`, `description` | Headline and one-line summary, shown in lists and feeds |
+| `image`, `image_alt` | The main picture, usually the image that was posted |
+| `downloads` | Other sizes, as a list of `label` and `file` |
+| `featured_until` | Optional date; the league-wide site features the post until then |
+
+Images made for one post go in `assets/news/<post file name>/`; a post about the season flyers points at `flyers/hockey-2026/exports/` instead. Posts show on the News page and, once there is one, the home page, and publish two feeds: `/feed.xml` (Atom, for feed readers; the News page has one-click follow buttons) and `/news/feed.json` (JSON Feed, read by the league-wide site). The news pieces (`_layouts/post.html`, `_includes/post-list.html` and `follow.html`, `_sass/_news.scss`, `news.md`, `news/feed.json`) are the same files on every MTL sport site; change them on all of them together.
 
 ## Previewing and publishing
 
