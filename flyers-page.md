@@ -15,8 +15,9 @@ Live previews: [combined]({{ site.baseurl }}/flyers/hockey-2026/) &middot; [midd
 
 ## Rink Banner — options for review
 
-Three takes on a replacement 8 ft &times; 3 ft dasher-board banner. Each carries a large QR code that opens this site (with a marker so we can see how many scans it gets). The PDF is the print master, authored at quarter scale; the PNG is for looking at on a screen.
+Options for the replacement dasher-board banner at Codey Arena. Each carries a large QR code that opens this site (with a marker so we can see how many scans it gets). The Dasher JPEG is print-ready at the arena's 8 ft &times; 2.5 ft size; the other options are earlier takes, where the PDF is the print master, authored at quarter scale, and the PNG is for looking at on a screen.
 
+- [Dasher — JPEG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-banner-dasher.jpg) &middot; [preview]({{ site.baseurl }}/flyers/hockey-2026/banner-dasher.html) — 8 ft &times; 2.5 ft: community artwork, the web address across the top, QR code the full height of the right side
 - [Fierce — PDF]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-banner-fierce.pdf) &middot; [PNG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-banner-fierce.png) &middot; [preview]({{ site.baseurl }}/flyers/hockey-2026/banner-fierce.html)
 - [Classic — PDF]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-banner-classic.pdf) &middot; [PNG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-banner-classic.png) &middot; [preview]({{ site.baseurl }}/flyers/hockey-2026/banner-classic.html)
 - [Split — PDF]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-banner-split.pdf) &middot; [PNG]({{ site.baseurl }}/flyers/hockey-2026/exports/mtl-hockey-banner-split.png) &middot; [preview]({{ site.baseurl }}/flyers/hockey-2026/banner-split.html)
