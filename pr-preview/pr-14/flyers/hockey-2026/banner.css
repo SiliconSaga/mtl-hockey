@@ -120,5 +120,27 @@ body { font-family: Oswald, "Arial Narrow", sans-serif; }
 .banner--board .qr-box .scan { font-size: 40px; }
 .banner--board .url { color: var(--navy-deep); font-size: 36px; font-weight: 600; }
 
+/* --- Variant: dasher (8 ft x 2.5 ft, community artwork + full-height QR) --- */
+/* 2304x720 = 24in x 7.5in, quarter scale. The QR square fills the right side
+   inside a 36px (1.5in at full size) margin that clears hems and grommets;
+   the address runs across the top of everything left of it. The artwork is
+   cut at its tiled-ice seam (x 1922 of 2580 native), so its content scales
+   to exactly the 1584px left column. */
+.banner--dasher { height: 720px; display: block; background: var(--navy-deep); }
+.banner--dasher .dasher-url {
+  position: absolute; top: 0; left: 0; width: 1620px; height: 183px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 600; font-size: 120px; letter-spacing: 1px; line-height: 1; color: var(--white);
+}
+.banner--dasher .dasher-art {
+  position: absolute; left: 0; bottom: 0; width: 1584px; height: 537px;
+  background: url("../assets/board-mtl-extended.jpg") left bottom / auto 100% no-repeat;
+}
+.banner--dasher .dasher-qr {
+  position: absolute; top: 36px; right: 36px; width: 648px; height: 648px;
+  background: var(--white); border-radius: 18px; padding: 20px;
+}
+.banner--dasher .dasher-qr img { width: 100%; height: 100%; display: block; image-rendering: pixelated; }
+
 @media print { html, body { background: none; } .banner { margin: 0; } }
 @page { size: 24in 9in; margin: 0; }
