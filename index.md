@@ -41,4 +41,4 @@ MTL is run entirely by volunteers. To coach, manage a team, or help out, email [
 
 ## Other MTL Sports
 
-Looking for another sport? Start at the [Mountain Top League site](https://mountaintopleague.com/) — soccer has its own home at [MTL Soccer](https://soccer.mountaintopleague.com/).
+Looking for another sport? Start at the [Mountain Top League site](https://mountaintopleague.com/) — soccer and basketball have their own homes at [MTL Soccer](https://soccer.mountaintopleague.com/) and [MTL Basketball](https://basketball.mountaintopleague.com/).
