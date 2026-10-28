@@ -19,6 +19,14 @@ MTL Hockey is part of the [Mountain Top League](https://mountaintopleague.com/),
 {% endfor %}
 </div>
 
+{% if site.posts.size > 0 %}
+## Latest News
+
+{% include post-list.html limit=2 %}
+
+[All news, and how to follow it →]({{ site.baseurl }}/news/)
+{% endif %}
+
 ## New to MTL Hockey?
 
 Read [How MTL Hockey Works]({{ site.baseurl }}/how-it-works/) for an overview of divisions, schedules, and what to expect, or jump straight to [registration]({{ site.baseurl }}/register/).
@@ -33,4 +41,4 @@ MTL is run entirely by volunteers. To coach, manage a team, or help out, email [
 
 ## Other MTL Sports
 
-Looking for another sport? Start at the [Mountain Top League site](https://mountaintopleague.com/) — soccer has its own home at [MTL Soccer](https://soccer.mountaintopleague.com/).
+Looking for another sport? Start at the [Mountain Top League site](https://mountaintopleague.com/) — soccer and basketball have their own homes at [MTL Soccer](https://soccer.mountaintopleague.com/) and [MTL Basketball](https://basketball.mountaintopleague.com/).
