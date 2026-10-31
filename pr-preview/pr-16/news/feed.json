@@ -1,0 +1,11 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "MTL Hockey news",
+  "home_page_url": "https://hockey.mountaintopleague.com/pr-preview/pr-16/news/",
+  "feed_url": "https://hockey.mountaintopleague.com/pr-preview/pr-16/news/feed.json",
+  "description": "MTL Hockey is part of the Mountain Top League, an all-volunteer organization serving the children of West Orange, NJ since 1959.",
+  "language": "en-US",
+  "_mtl": { "sport": "hockey", "site_url": "https://hockey.mountaintopleague.com/pr-preview/pr-16/" },
+  "items": [
+  ]
+}
